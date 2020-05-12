@@ -1,0 +1,850 @@
+   
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: tahoma;
+    }
+    
+    a {
+        font-family: sans-serif;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    /********************** 
+Golbal Css Code Start
+***********************/
+  .container {
+        width: 1140px;
+        margin: 0px auto;
+    }
+    
+    .row {
+        width: 100%;
+        float: left;
+    }
+    
+    .col-md-12 {
+        width: 100%;
+        float: left;
+    }
+    
+    .col-md-4 {
+        width: 33.33%;
+        float: left;
+    }
+    
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+    
+    .col-md-3 {
+        width: 25%;
+        float: left;
+    }   
+   
+    /********************** 
+Golbal Css Code End
+***********************/
+    /********************** 
+Header Section Code start
+***********************/
+    
+    .header-section {
+        width: 100%;
+        float: left;
+        background: #f6f9f9;
+    }
+    
+    .logo {
+        width: 100%;
+        float: left;
+        padding: 10px 0px;
+    }
+    /********************** 
+Header Section Code End
+***********************/
+    /********************** 
+Banner Section Code start
+***********************/
+    
+    .banner-section {
+        width: 100%;
+        float: left;
+        padding: 80px 0px;
+        background: url(../picture/banner.png) center top no-repeat;
+        background-size: cover;
+    }
+    
+    .banner-inner {
+        width: 100%;
+        float: left;
+        padding: 50px 0px 0px;
+        text-align: center;
+    }
+    
+    .banner-inner h1 {
+        font-family: 'Lato', sans-serif;
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 0px;
+    }
+    
+    .divider {
+        width: 40%;
+        height: 2px;
+        margin: 20px auto;
+        background: #15a4fa;
+    }
+    
+    .banner-inner p {
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 50px;
+    }
+    
+    .banner-inner .btn {
+        padding: 10px 35px;
+        font-size: 16px;
+        font-weight: 700;
+        background: transparent;
+        color: #ffffff;
+        border: 2px solid #15a4fa;
+        border-radius: 2px;
+    }
+    
+    .banner-inner .btn:hover {
+        background: #15a4fa;
+        color: #fff;
+        border: 2px solid #15a4fa;
+        border-radius: 2px;
+        transition: 1s;
+    }
+    
+    .banner-inner .arrow {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    .arrow img {
+        margin-top: 80px;
+    }
+    /********************** 
+Banner Section Code End
+***********************/
+    /********************** 
+Simple Section Code Start
+***********************/
+    
+    .simple-section {
+        width: 100%;
+        float: left;
+        padding: 80px 0px;
+        background: #f6f9f9;
+        text-align: center;
+    }
+    
+    .simple-inner h1 {
+        font-size: 40px;
+        line-height: 45px;
+        font-weight: 400;
+        color: #2d3950;
+        margin-bottom: 5px;
+    }
+    
+    .simple-inner p {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #999999;
+    }
+    /********************** 
+Simple Section Code End
+***********************/
+    /********************** 
+Feature Section Code Start
+***********************/
+    
+    .feature-section {
+        width: 100%;
+        float: left;
+        padding: 80px 0px;
+        background: #ffffff;
+    }
+    
+    .feature-inner {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .feature-inner img {
+        margin-bottom: 20px;
+    }
+    
+    .feature-inner h4 {
+        font-size: 22px;
+        line-height: 27px;
+        font-weight: 400;
+        color: #2d3950;
+        margin-bottom: 10px;
+    }
+    
+    .feature-inner p {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #999999;
+    }
+    /********************** 
+Feature Section Code End
+***********************/
+    /********************** 
+Portfolio Section Code Start
+***********************/
+    
+    .portfolio-section {
+        width: 100%;
+        float: left;
+        padding: 80px 0px;
+        background: #f6f9f9;
+    }
+    
+    .portfolio-title {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .portfolio-title h1 {
+        font-size: 41px;
+        line-height: 45px;
+        font-weight: 400;
+        color: #2d3950;
+        margin-bottom: 5px;
+    }
+    
+    .portfolio-title p {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #909090;
+    }
+    
+    .portfolio-inner {
+        width: 96%;
+        float: left;
+        position: relative;
+    }
+    
+    .port-hover {
+        position: absolute;
+        width: 99%;
+        height: 97%;
+        background: rgb(30, 158, 237, 0.8);
+        top: 0;
+        left: 0;
+        text-align: center;
+        display: none;
+        transition: 1s;
+    }
+    
+    .port-hover ul {
+        display: block;
+        position: absolute;
+        top: 40%;
+        left: 35%;
+    }
+    
+    .port-hover ul li {
+        display: inline-block;
+        list-style: none;
+    }
+    
+    .port-hover ul li a {
+        margin: 5px;
+    }
+    
+    .portfolio-inner:hover .port-hover {
+        display: block;
+        transition: 1s;
+    }
+    
+    .mar-top {
+        margin-top: 12px;
+    }
+    /********************** 
+Portfolio Section Code End
+***********************/
+    /********************** 
+Contract Section Code Start
+***********************/
+    
+    .contract-section {
+        width: 100%;
+        float: left;
+        padding: 80px 0px;
+        background: url(../picture/s1.png) center top no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    
+    .contact-title {
+        width: 100%;
+        float: left;
+        padding: 15px;
+    }
+    
+    .contact-title h1 {
+        font-size: 41px;
+        line-height: 45px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 5px;
+    }
+    
+    .contact-title p {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #999999;
+    }
+    
+    .contract-inner {
+        width: 100%;
+        float: left;
+        padding-top: 10px;
+    }
+    
+    .main-form {
+        float: left;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .form-control {
+        width: 94%;
+        padding: 15px;
+        margin: 10px 0px;
+        border: 1px solid #999999;
+        border-radius: 3px;
+        background: transparent;
+    }
+    
+    .main-form span {
+        text-align: left;
+        color: #f1f2f3;
+        
+    }
+
+    .form-group2{
+        text-align: left;
+    }
+    
+    .form-group1 {
+        text-align: right;
+    }
+    
+    .contract-inner .btn {
+        padding: 10px 35px;
+        font-size: 16px;
+        font-weight: 400;
+        background: transparent;
+        color: #ffffff;
+        border: 2px solid #15a4fa;
+        border-radius: 2px;
+    }
+    
+    .contract-inner .btn:hover {
+        background: #15a4fa;
+        color: #fff;
+        border: 2px solid #15a4fa;
+        border-radius: 2px;
+        transition: 1s;
+    }
+
+
+    
+
+
+/********************** 
+Contract Section Code End
+***********************/
+
+
+/********************** 
+Footer Section Code Start
+***********************/
+
+.footer-section{
+    width: 100%;
+    float: left;
+    padding: 20px 0px; 
+}
+
+.footer-section p {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #999999;
+        margin-top: 5px;
+    }
+
+
+
+
+.social-icon{
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+.social-icon ul{
+
+}
+
+.social-icon ul li{
+    list-style: none;
+    display: inline-block;
+
+
+}
+.social-icon ul li a{
+    text-align: center;
+    margin: 10px;
+}
+
+.social-icon ul li a i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #08c;
+    color: #fff;
+    border: 1px solid #08c;
+    transition: 1s;
+
+
+}
+.social-icon ul li a i:hover{
+    background: transparent;
+    color: #08c;
+    border: 1px solid #08c;
+    transition: 1s;
+}
+.social-icon ul li a .fa-youtube{
+    background: #08c;
+}
+.social-icon ul li a .fa-youtube:hover{
+    background: transparent;
+    color: #FF0000;
+    border: 1px solid #FF0000;
+    transition: 1s;
+}
+
+.social-icon ul li a .fa-instagram{
+    background: #08c;
+}
+.social-icon ul li a .fa-instagram:hover{
+    background: transparent;
+    color: #3f729b;
+    border: 1px solid #3f729b;
+    transition: 1s;
+}
+
+
+
+/********************** 
+Footer Section Code End
+***********************/
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header-section {
+        width: 100%;
+        float: left;
+        background: #f6f9f9;
+    }   
+    .logo {
+        width: 100%;
+        float: left;
+        padding: 10px 0px;
+    }  
+    .banner-section {
+        width: 100%;
+        float: left;
+        padding: 80px 0px;
+        background: url(../picture/banner.png) center top no-repeat;
+        background-size: cover;
+    }    
+    .banner-inner {
+        width: 100%;
+        float: left;
+        padding: 50px 0px 0px;
+        text-align: center;
+    }   
+    .banner-inner h1 {
+        font-family: 'Lato', sans-serif;
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 0px;
+    }    
+    .divider {
+        width: 40%;
+        height: 2px;
+        margin: 20px auto;
+        background: #15a4fa;
+    }   
+    .banner-inner p {
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 50px;
+    }    
+    .banner-inner .btn {
+        padding: 10px 35px;
+        font-size: 16px;
+        font-weight: 700;
+        background: transparent;
+        color: #ffffff;
+        border: 2px solid #15a4fa;
+        border-radius: 2px;
+    }    
+    .banner-inner .btn:hover {
+        background: #15a4fa;
+        color: #fff;
+        border: 2px solid #15a4fa;
+        border-radius: 2px;
+        transition: 1s;
+    }    
+    .banner-inner .arrow {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-top: 80px;
+    }
+    .arrow img {
+        margin-top: 80px;
+    }
+    .simple-section {
+        width: 100%;
+        float: left;
+        padding: 80px 0px;
+        background: #f6f9f9;
+        text-align: center;
+    }    
+    .simple-inner h1 {
+        font-size: 40px;
+        line-height: 45px;
+        font-weight: 400;
+        color: #2d3950;
+        margin-bottom: 5px;
+    }    
+    .simple-inner p {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #999999;
+    }
+    .feature-section {
+        width: 100%;
+        float: left;
+        padding: 80px 0px;
+        background: #ffffff;
+    }  
+    .feature-inner {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        text-align: center;
+    } 
+    .feature-inner img {
+        margin-bottom: 20px;
+    }
+    .feature-inner h4 {
+        font-size: 22px;
+        line-height: 27px;
+        font-weight: 400;
+        color: #2d3950;
+        margin-bottom: 10px;
+    }  
+    .feature-inner p {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #999999;
+    }
+    .portfolio-section {
+        width: 100%;
+        float: left;
+        padding: 80px 0px;
+        background: #f6f9f9;
+    }
+    
+    .portfolio-title {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .portfolio-title h1 {
+        font-size: 41px;
+        line-height: 45px;
+        font-weight: 400;
+        color: #2d3950;
+        margin-bottom: 5px;
+    }
+    
+    .portfolio-title p {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #909090;
+    }
+    
+    .portfolio-inner {
+        width: 96%;
+        float: left;
+        position: relative;
+    }
+    
+    .port-hover {
+        position: absolute;
+        width: 99%;
+        height: 97%;
+        background: rgb(30, 158, 237, 0.8);
+        top: 0;
+        left: 0;
+        text-align: center;
+        display: none;
+        transition: 1s;
+    }
+    
+    .port-hover ul {
+        display: block;
+        position: absolute;
+        top: 40%;
+        left: 35%;
+    }
+    
+    .port-hover ul li {
+        display: inline-block;
+        list-style: none;
+    }
+    
+    .port-hover ul li a {
+        margin: 5px;
+    }
+    
+    .portfolio-inner:hover .port-hover {
+        display: block;
+        transition: 1s;
+    }
+    
+    .mar-top {
+        margin-top: 12px;
+    }
+     .contract-section {
+        width: 100%;
+        float: left;
+        padding: 80px 0px;
+        background: url(../picture/s1.png) center top no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    
+    .contact-title {
+        width: 100%;
+        float: left;
+        padding: 15px;
+    }
+    
+    .contact-title h1 {
+        font-size: 41px;
+        line-height: 45px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 5px;
+    }
+    
+    .contact-title p {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #999999;
+    }
+    
+    .contract-inner {
+        width: 100%;
+        float: left;
+        padding-top: 10px;
+    }
+    
+    .main-form {
+        float: left;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .form-control {
+        width: 94%;
+        padding: 15px;
+        margin: 10px 0px;
+        border: 1px solid #999999;
+        border-radius: 3px;
+        background: transparent;
+    }
+    
+    .main-form span {
+        text-align: left;
+        color: #f1f2f3;
+        
+    }
+
+    .form-group2{
+        text-align: left;
+    }
+    
+    .form-group1 {
+        text-align: right;
+    }
+    
+    .contract-inner .btn {
+        padding: 10px 35px;
+        font-size: 16px;
+        font-weight: 400;
+        background: transparent;
+        color: #ffffff;
+        border: 2px solid #15a4fa;
+        border-radius: 2px;
+    }
+    
+    .contract-inner .btn:hover {
+        background: #15a4fa;
+        color: #fff;
+        border: 2px solid #15a4fa;
+        border-radius: 2px;
+        transition: 1s;
+    }
+    .footer-section{
+        width: 100%;
+        float: left;
+        padding: 20px 0px; 
+    }
+    .footer-section p {
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #999999;
+        margin-top: 5px;
+    }
+    .social-icon{
+        width: 100%;
+        float: left;
+        text-align: right;
+        }
+    .social-icon ul{
+
+       }
+
+    .social-icon ul li{
+        list-style: none;
+        display: inline-block;
+       }
+    .social-icon ul li a{
+        text-align: center;
+        margin: 10px;
+        }
+
+    .social-icon ul li a i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        background: #08c;
+        color: #fff;
+        border: 1px solid #08c;
+        transition: 1s;
+
+
+        }
+    .social-icon ul li a i:hover{
+        background: transparent;
+        color: #08c;
+        border: 1px solid #08c;
+        transition: 1s;
+        }
+    .social-icon ul li a .fa-youtube{
+        background: #08c;
+        }
+    .social-icon ul li a .fa-youtube:hover{
+        background: transparent;
+        color: #FF0000;
+        border: 1px solid #FF0000;
+        transition: 1s;
+        }
+
+    .social-icon ul li a .fa-instagram{
+        background: #08c;
+        }
+    .social-icon ul li a .fa-instagram:hover{
+        background: transparent;
+        color: #3f729b;
+        border: 1px solid #3f729b;
+        transition: 1s;
+        }
+
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+ 
+  
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+  
+  
+}
+
+
+
